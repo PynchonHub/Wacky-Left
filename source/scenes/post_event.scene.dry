@@ -5164,7 +5164,7 @@ if (this.ui && this.ui.show_portraits) {
         }
     }
 }
-if (typeof window !== "undefined" && window.generateBar) {
+if (typeof window != "undefined" && window.generateBar) {
 }
 !}
 go-to: bg_change if rubicon; events_choice if has_event = 1 and not rubicon; main if has_event = 0 and difficulty >= 0 and not rubicon; main.main_easy if has_event = 0 and difficulty < 0 and not rubicon
